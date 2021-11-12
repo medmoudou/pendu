@@ -1,0 +1,2 @@
+# Jeu du pendu en Javascript
+Selon Wikipédia: “Le pendu est un jeu consistant à trouver un mot en devinant quelles sont les lettres qui le composent. Le jeu se joue traditionnellement à deux, avec un papier et un crayon, selon un déroulement bien particulier. Quand le dessin est terminé on voit un bonhomme allumette qui se pend “. Il s'agit d'un jeu auquel nous avons tous joué et qui nous a beaucoup plu de part son coté ludique, nous voulions donc créer la version numérique de ce jeu intemporel.
