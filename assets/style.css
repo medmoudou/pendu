@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+.dashes {
+    display: flex;
+    justify-content: center;
+}
+
+.dashes div {
+    padding: 8px 18px;
+    border-radius: 5px;
+    margin: 2px;
+    border: 2px solid #ffffff;
+    color: white;
+}
+
+.content {
+    padding: 20px;
+}
+
+img.image {
+    display: block;
+    margin: 0px auto 30px auto;
+    border: 4px solid black;
+    border-radius: 13px;
+    padding: 9px;
+}
+
+.game {
+    width: 700px;
+    height: 400px;
+    background-color: #ffc107;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.playbtn {
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: #03a9f4;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: calc(50% - 150px/2);
+    top: 60%;
+    border-radius: 13px;
+}
+
+.playbtn:hover {
+    background-color: #059de4;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#check {
+    display: block;
+    background: #03a9f4;
+    padding: 10px 30px;
+    margin: 0 auto;
+    border-radius: 6px;
+    margin-top: 30px;
+    color: white;
+}
+
+#text {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 6px;
+    border-radius: 7px;
+    width: 30px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.loss, .win {
+    background: #ffffff42;
+    color: white;
+    padding: 12px 0px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.replay {
+    padding: 10px 15px;
+    border: none;
+    background: #ffeb3b;
+    margin: auto;
+    display: block;
+    margin-top: 16px;
+    border-radius: 9px;
+}
